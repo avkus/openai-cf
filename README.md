@@ -1,6 +1,4 @@
 ---
-
-```markdown
 # Cloudflare LLM Proxy Worker with Two-Tier Authorization
 
 This Cloudflare Worker acts as a secure proxy for Large Language Models (LLMs), specifically demonstrating integration with Cloudflare AI models (e.g., Llama 3). It implements a two-tier authorization system to control access: one key for accessing the worker itself, and another (implicitly used by Cloudflare AI binding or explicitly for external LLMs) for the LLM API call.
